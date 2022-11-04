@@ -122,12 +122,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>» ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ </b>\nʜᴇʏ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴜᴇ ᴛᴏ ʜᴇᴀᴠʏ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ. ᴍᴀᴋᴇ sᴜʀᴇ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ɪғ ʏᴏᴜ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ɴʏ ᴏᴡɴᴇʀ [ʙᴏʙʙʏ](https://t.me/love_u_Bobby)")
+                        f"<b>» ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ </b>\nʜᴇʏ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴜʟᴅ ɴᴏᴛ ᴊᴏɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴜᴇ ᴛᴏ ʜᴇᴀᴠʏ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ. ᴍᴀᴋᴇ sᴜʀᴇ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ɪғ ʏᴏᴜ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ɴʏ ᴏᴡɴᴇʀ [Thavaraj](https:/t.me/thavarajtj)")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i> » ʜᴇʏ {user.first_name}, ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ' ᴀsᴋ ᴀᴅᴍɪɴ ᴛᴏ sᴇɴᴅ /Play ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪғ ʏᴏᴜ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ɴʏ ᴏᴡɴᴇʀ [ʙᴏʙʙʏ](https://t.me/Love_you_bobby)</i>")
+            f"<i> » ʜᴇʏ {user.first_name}, ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ' ᴀsᴋ ᴀᴅᴍɪɴ ᴛᴏ sᴇɴᴅ /Play ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪғ ʏᴏᴜ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ɴʏ ᴏᴡɴᴇʀ [Thavaraj](https://t.me/thavarajtj)</i>")
         return
     
     audio = (
