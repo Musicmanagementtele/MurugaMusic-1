@@ -387,25 +387,6 @@ async def play(_, message: Message):
 async def in_close_play(_, query: CallbackQuery):
     await query.message.delete()
 
-    @Client.on_callback_query(filters.regex("cbskip"))
-async def cbskip(_, query: CallbackQuery):
-    if query.message.sender_chat:
-        return await query.answer("ʏᴏᴜ'ʀᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ !\n\n» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ 
-    a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
-    if not a.can_manage_voice_chats:
-        return await query.answer("» ᴏɴʟʏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴘᴇʀᴍɪssɪ
-    chat_id = query.message.chat.id
-    if chat_id in QUEUE:
-        try:
-            await call_py.pause_stream(chat_id)
-            await query.edit_message_text(
-                "⏸ Y entha song pikalaya 😒😔", reply_markup=bttn
-            )
-        except Exception as e:
-            await query.edit_message_text(f"🚫 **ᴇʀʀᴏʀ:**\n\n`{e}`", reply_marku
-    else:
-        await query.answer("❌ Y entha song pikalaya 😒😔", show_alert=True)
-
 @Client.on_callback_query(filters.regex("cbpause"))
 async def cbpause(_, query: CallbackQuery):
     if query.message.sender_chat:
