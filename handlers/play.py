@@ -388,6 +388,7 @@ async def in_close_play(_, query: CallbackQuery):
     await query.message.delete()
 
 @Client.on_callback_query(filters.regex("cbpause"))
+async def cbpause(_, query: CallbackQuery):
     if query.message.sender_chat:
         return await query.answer("ʏᴏᴜ'ʀᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ !\n\n» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ ғʀᴏᴍ ᴀᴅᴍɪɴ ʀɪɢʜᴛs.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
