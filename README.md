@@ -2,12 +2,12 @@
 
 ### ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴛhavaraj](t.me/thavarajtj).
 
-<p align="center"><a href="https://t.me/tamilbestfriendss"><img src="https://telegra.ph/file/c96efdcdf59822434aec1.jpg"></a></p>
+<p align="center"><a href="https://t.me/tamilbestfriendss"><img src="https://telegra.ph/file/3f0c65d3899e9985eb202.jpg"></a></p>
 
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/love-u-bobby/Dark-Music)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/murugabots/MurugaMusic)
 
 
 
