@@ -56,7 +56,7 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/thavarajtj"
+                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj"
                     ),
                     InlineKeyboardButton(
                         "🥂 ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
@@ -82,7 +82,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("🥂 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton("♨️ ᴏᴡɴᴇʀ", url=f"https://t.me/thavarajtj"),
+                InlineKeyboardButton("♨️ ᴏᴡɴᴇʀ", url="https://t.me/thavarajtj"),
             ],
             [
                 InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="home"),
@@ -109,7 +109,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/thavarajtj}"
+                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj}"
                     ),
                     InlineKeyboardButton(
                         "🥂 ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
