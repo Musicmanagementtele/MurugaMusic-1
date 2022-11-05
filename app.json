@@ -1,9 +1,9 @@
 {
-  "name": "ᴅᴀʀᴋ x ᴍᴜsɪᴄ",
-  "logo": "https://te.legra.ph/file/0796c315c650535e42777.jpg",
+  "name": "Tgm Drugs OfYuvan",
+  "logo": "https://telegra.ph/file/3f0c65d3899e9985eb202.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/Sumit9969/DarkxMusic",
+  "repository": "https://github.com/murugabots/MurugaMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
