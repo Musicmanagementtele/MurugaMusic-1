@@ -56,18 +56,18 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj"
+                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj"
                     ),
                     InlineKeyboardButton(
-                        "🥂 ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        " ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],[
                      InlineKeyboardButton(
-                        "📄 ʜᴇʟᴘ & ᴄᴏᴍᴍɴᴀᴅs ", callback_data="help")
+                        " ʜᴇʟᴘ & ᴄᴏᴍᴍɴᴀᴅs ", callback_data="help")
                 ],[
                     
                     InlineKeyboardButton(
-                        "♨️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/tamilbestfriendss" 
+                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/tamilbestfriendss" 
                     ),]
             ]
        ),
@@ -77,12 +77,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 sᴜᴅᴏ", callback_data="sudo"),
-                InlineKeyboardButton("👤 ᴜꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton(" sᴜᴅᴏ", callback_data="sudo"),
+                InlineKeyboardButton(" ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🥂 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton("♨️ ᴏᴡɴᴇʀ", url="https://t.me/thavarajtj"),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/thavarajtj"),
             ],
             [
                 InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="home"),
@@ -109,18 +109,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "🗽 ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj}"
+                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/thavarajtj}"
                     ),
                     InlineKeyboardButton(
-                        "🥂 ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        " ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],[
                      InlineKeyboardButton(
-                        "📄 ʜᴇʟᴘ & ᴄᴏᴍᴍɴᴀᴅs ", callback_data="Help")
+                        " ʜᴇʟᴘ & ᴄᴏᴍᴍɴᴀᴅs ", callback_data="Help")
                 ],[
                     
                     InlineKeyboardButton(
-                        "♨️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/throwpathidpworld" 
+                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/professor_abhi" 
                     ),]
             ]
        ),
