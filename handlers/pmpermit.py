@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [ʙᴏʙʙʏ](t.me/love_u_bobby).\n",
+                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ʙʏ [Thavaraj](t.me/thavarajtj).\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -30,7 +30,7 @@ async def pmPermit(client: USER, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ​​ ", url=f"thavarajtj"
+                        " ᴅᴇᴠᴇʟᴏᴘᴇʀ​​ ", url=f"https://t.me/thavarajtj"
                     )]
             ]
         ),
