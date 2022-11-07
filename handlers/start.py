@@ -67,7 +67,7 @@ async def start_(client: Client, message: Message):
                 ],[
                     
                     InlineKeyboardButton(
-                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/tamilbestfriendss" 
+                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/professor_abhi" 
                     ),]
             ]
        ),
